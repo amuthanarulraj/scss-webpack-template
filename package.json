@@ -1,0 +1,32 @@
+{
+  "name": "scss-webpack-template",
+  "version": "1.0.0",
+  "description": "SCSS Webpack template project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amuthanarulraj/scss-webpack-template.git"
+  },
+  "keywords": [
+    "SCSS",
+    "Webpack",
+    "Template"
+  ],
+  "author": "Amuthan Arulraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amuthanarulraj/scss-webpack-template/issues"
+  },
+  "homepage": "https://github.com/amuthanarulraj/scss-webpack-template#readme",
+  "devDependencies": {
+    "css-loader": "2.1.0",
+    "node-sass": "4.11.0",
+    "sass-loader": "7.1.0",
+    "webpack": "4.29.0",
+    "webpack-cli": "3.2.1",
+    "webpack-dev-server": "3.1.14"
+  }
+}
