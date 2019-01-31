@@ -12,5 +12,4 @@
 .vscode/
 .idea/workspace.xml
 dist/docs/
-package-lock.json
 /dist
