@@ -6,7 +6,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 let outDirectory = path.resolve(__dirname, 'dist');
-let outputFilename = '[name].bundle.js';
+let outputFilename = '[name].js';
 
 module.exports = {
     mode: 'production',
@@ -35,8 +35,6 @@ module.exports = {
             use: [{
                 loader: MiniCssExtractPlugin.loader,
                 options: {
-                    // you can specify a publicPath here
-                    // by default it use publicPath in webpackOptions.output
                     publicPath: '../'
                 }
             }, {
